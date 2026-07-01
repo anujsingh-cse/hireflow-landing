@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/marketing/sections/hero-section";
 import { FeaturesSection } from "@/components/marketing/sections/features-section";
+import { HowItWorksSection } from "@/components/marketing/sections/how-it-works-section";
 import { SiteHeader } from "@/components/marketing/layout/site-header";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main id="main-content">
         <HeroSection />
         <FeaturesSection />
+        <HowItWorksSection />
       </main>
     </div>
   );
