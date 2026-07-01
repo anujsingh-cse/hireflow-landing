@@ -1,6 +1,7 @@
 import { HeroSection } from "@/components/marketing/sections/hero-section";
 import { FeaturesSection } from "@/components/marketing/sections/features-section";
 import { HowItWorksSection } from "@/components/marketing/sections/how-it-works-section";
+import { TestimonialsSection } from "@/components/marketing/sections/testimonials-section";
 import { SiteHeader } from "@/components/marketing/layout/site-header";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <HeroSection />
         <FeaturesSection />
         <HowItWorksSection />
+        <TestimonialsSection />
       </main>
     </div>
   );
